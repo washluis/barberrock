@@ -667,3 +667,28 @@ footer .social a:hover {
 }
 
 /**  MED DEVICES: +767 **/
+@media (max-width: 767px) {
+  #header .toggle {
+    display: flex;
+    justify-content: center;
+    margin-left: -3rem;
+  }
+}
+
+/**  MED DEVICES: +320 **/
+@media (max-width: 320px) {
+  #header .toggle {
+    display: flex;
+    justify-content: center;
+    margin-left: -6rem;
+  }
+}
+
+/**  MED DEVICES: Galaxy Fold +280 **/
+@media (max-width: 280px) {
+  #header .toggle {
+    display: flex;
+    justify-content: center;
+    margin-left: -8rem;
+  }
+}
